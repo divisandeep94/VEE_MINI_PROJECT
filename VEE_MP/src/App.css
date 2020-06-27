@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  padding: 15px;
+}
+
+.App-header {
+  height: 50px;    
+  padding: 25px;
+  border: 1px solid black;
+  position: relative;
+  display: flex;
+  background: #00b0ef;
+}
+
+.Header-title {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 30px; 
+  font-size: 24px;
+  font-weight: 600   
+}
+
+.text-input {
+  height: 30px;
+  width: 250px;
+  font-size: 20px;
+  color: black;
+  font-style: italic;
+} 
+
+.text-input-create {
+  margin-right: 15px;
+  height: 30px;
+  width: 250px;
+  font-size: 20px;
+  color: black;
+  font-style: italic;
+} 
+
+.add-user-class {
+  height: 36px;
+  margin-left: 70%;
+  background: white;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+.cancel-user-class {
+  width: 76px;
+  height: 36px;
+  margin-left: 1%;
+  background: white;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+.submit-user-class {
+  width: 76px;
+  height: 36px;
+  margin-left: 7%;
+  background: white;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
